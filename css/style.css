@@ -1,0 +1,67 @@
+/* -------------------------------------
+CSS reset
+(all the browsers will see the website in the same by setting every tag to 0 (the website will look the same on all browsers))
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 110%;
+    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+    box-sizing: border-box;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
+}
+
+
+/* -------------------------------------
+General styles (General Module, wrapping around the modules bellow)
+(the styles used everywhere in the page (like the Body) or styles which are used in more than 2 of the modules bellow (h2, h3, h4, h5, h6, p, a, ul, li))
+*/
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+<style type="text/css" media="screen"> body {
+    background-color: #000000;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+</style> #map {
+    height: 50%;
+}
+
+#addressInputHolder {
+    position: relative!important;
+}
+
+#addressInputHolder input {
+    width: 400px!important;
+}
+
+#addressInput {
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 300px;
+}
+
+#addressInput:focus {
+    border-color: #4d90fe;
+}
