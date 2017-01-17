@@ -33,16 +33,16 @@ body {
     padding: 0;
 }
 
-<style type="text/css" media="screen"> body {
-    background-color: #000000;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: right bottom;
-}
+/*<style type="text/css" media="screen"> body {*/
+/*    background-color: #000000;*/
+/*    background-attachment: fixed;*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: right bottom;*/
+/*}*/
 
-</style> #map {
-    height: 50%;
-}
+/*</style> #map {*/
+/*    height: 50%;*/
+/*}*/
 
 #addressInputHolder {
     position: relative!important;
