@@ -1,31 +1,4 @@
-/* -------------------------------------
-CSS reset
-(all the browsers will see the website in the same by setting every tag to 0 (the website will look the same on all browsers))
-*/
 
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 110%;
-    /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
-    box-sizing: border-box;
-    /*reset Chrome user agent styles*/
-    -webkit-margin-before: 0px;
-    -webkit-margin-after: 0px;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    -webkit-padding-before: 0px;
-    -webkit-padding-after: 0px;
-    -webkit-padding-start: 0px;
-    -webkit-padding-end: 0px;
-}
-
-
-/* -------------------------------------
-General styles (General Module, wrapping around the modules bellow)
-(the styles used everywhere in the page (like the Body) or styles which are used in more than 2 of the modules bellow (h2, h3, h4, h5, h6, p, a, ul, li))
-*/
 
 html {
     background: url("images/crossfit.jpg") no-repeat center center fixed;
@@ -33,6 +6,12 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.left {
+float:left;
+width: 150px;
+background: red;
 }
 
 #addressInputHolder {
